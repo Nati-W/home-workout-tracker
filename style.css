@@ -11,16 +11,18 @@ body{
     height: 500px;
 }
 
-.top-plans{
+.plans{
+    /* aligns vertically */
     align-items: center;
     background-color: #394D55;
     height: 300px;
     display: flex;
+    /* aligns horizontally */
     justify-content: center;
 }
 
 
-.top-plans div{
+.plans div{
     background-color: white;
     height: 150px;
     margin: 10px;
@@ -28,20 +30,10 @@ body{
 
 }
 
-#arrow{
+/* #arrow{
     width: 50px;
-}
+} */
 
 .lvl{
-    /* align-items center vertically */
-    align-items: center;
-    display: flex;
-    justify-content: center;
-}
-
-.lvl div{
-    background-color: white;
-    height: 150px;
-    width: 350px;
-    margin: 10px;
+    background-color: rgb(120, 120, 120);
 }
